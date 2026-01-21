@@ -1,0 +1,6 @@
+SELECT
+	R,
+	COUNT(uid) num
+FROM user_rfm
+GROUP BY R
+ORDER BY R
