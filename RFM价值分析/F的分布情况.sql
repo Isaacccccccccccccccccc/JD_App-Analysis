@@ -1,6 +1,0 @@
-SELECT
-	F,
-	COUNT(uid) num
-FROM user_rfm
-GROUP BY F
-ORDER BY F

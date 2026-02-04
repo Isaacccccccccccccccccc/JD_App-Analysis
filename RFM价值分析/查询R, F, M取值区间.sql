@@ -1,8 +1,0 @@
-SELECT
-	MAX(R) MAX_R, 
-	MIN(R) MIN_R, 
-	MAX(F) MAX_F, 
-	MIN(F) MIN_F, 
-	MAX(M) MAX_M, 
-	MIN(M) MIN_M
-FROM user_rfm
